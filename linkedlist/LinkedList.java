@@ -1,6 +1,6 @@
-package linklist;
+package linkedlist;
 
-public class LinkList{
+public class LinkedList{
 
     // reverse a singly linked list
     public ListNode reverseList(ListNode head) {
@@ -76,5 +76,68 @@ public class LinkList{
             head = head.next;
         }
         return false;
+    }
+
+    // Remove Linked List Elements
+    public ListNode removeElements(ListNode head, int val) {
+        ListNode nhead = new ListNode(0);
+        nhead.next = head;
+        ListNode p = nhead.next, prev = nhead;
+        while(p != null){
+            if(p.val == val) {
+                prev.next = p.next;
+            }else{
+                prev = prev.next;
+            }
+            p = p.next;
+        }
+        return nhead.next;
+    }
+    public ListNode recursiveRemoveElements(ListNode head, int val) {
+        if (head == null) return null;
+        head.next = recursiveRemoveElements(head.next, val);
+        return head.val == val ? head.next : head;
+    }
+
+    // determine if a singly linked list is a palindrome.
+    public boolean isPalindrome(ListNode head) {
+        if(head == null || head.next == null) return true;
+        LinkedList<ListNode> stack = new LinkedList<>();
+        ListNode p = head;
+        while(p != null){
+            stack.offer(p);
+            p = p.next;
+        }
+        p = head;
+        while(stack.size() != 0){
+            if(stack.peekLast().val != p.val) return false;
+            stack.pollLast();
+            p = p.next;
+        }
+        return true;
+    }
+
+    ListNode ref;
+    public boolean isPalindrome2(ListNode head) {
+        ref = head;        
+        return check(head);
+    }
+    public boolean check(ListNode node){
+        if(node == null) return true;
+        boolean ans = check(node.next);
+        boolean isEqual = (ref.val == node.val)? true : false; 
+        ref = ref.next;
+        return ans && isEqual;
+    }
+
+    // find the node at which the intersection of two singly linked lists begins.
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if(headA == null || headB == null) return null;
+        ListNode pA = headA, pB = headB;
+        while(pA != pB){
+            pA = pA == null ? headB : pA.next;
+            pB = pB == null ? headA : pB.next;
+        }
+        return pA;
     }
 }
