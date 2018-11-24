@@ -11,3 +11,5 @@ data structure and common algorithms in Java
 * remove Linked List Elements
 * determine if a singly linked list is a palindrome
 * find the node at which the intersection of two singly linked lists begins
+* convert a sorted singly linked to a height balanced BST (Medium)
+* Split Linked List in Parts (Medium)
