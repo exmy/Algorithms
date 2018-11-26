@@ -1,6 +1,6 @@
 # Algorithms
 data structure and common algorithms in Java
----
+
 
 #### math
  * Count the number of prime numbers less than a non-negative number, n.
@@ -20,4 +20,10 @@ data structure and common algorithms in Java
 ---
 
 #### tree
-* find the maximum depth of a n-ary tree 
+* find the maximum depth of a n-ary tree (easy)
+* Trim a Binary Search Tree (easy)
+* Merge Two Binary Trees (easy)
+* Invert a binary tree (easy)
+* Two Sum IV - Input is a BST (easy)
+* Longest Univalue Path (easy)
+* Binary Tree Paths (easy)
