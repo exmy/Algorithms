@@ -61,4 +61,31 @@ public class BasicTreeAlgorithms{
         construct_paths(root.left, path, paths);
         construct_paths(root.right, path, paths);
     }
+
+    // 6. Insert into a Binary Search Tree
+    public TreeNode insertIntoBST(TreeNode root, int val) {
+        if(root == null){
+            return new TreeNode(val);
+        }
+        TreeNode p = root;
+        TreeNode pre = null;
+        while(p != null){
+            pre = p;
+            if(p.val < val) p = p.right;
+            else if(p.val > val) p = p.left;
+        }
+        TreeNode node = new TreeNode(val);
+        if(val < pre.val) pre.left = node;
+        else pre.right = node;
+        return root;
+    }
+    public TreeNode recursiveInsertIntoBST(TreeNode root, int val){
+        if(root == null) return new TreeNode(val);
+        if(root.val < val){
+            root.right = recursiveInsertIntoBST(root.right, val);
+        }else{
+            root.left = recursiveInsertIntoBST(root.left, val);
+        }
+        return root;
+    }
 }
