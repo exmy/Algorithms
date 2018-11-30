@@ -32,3 +32,5 @@ data structure and common algorithms in Java
 * Insert into a Binary Search Tree (Medium)
 * Subtree of Another Tree (Easy)
 * Path Sum III (Easy)
+* Binary Tree Pruning (Medium)
+* Find Mode in Binary Search Tree (Easy)
