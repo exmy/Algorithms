@@ -1,6 +1,6 @@
 package linkedlist;
 
-public class LinkedList{
+public class BasicLinkedListAlgo{
 
     // reverse a singly linked list
     public ListNode reverseList(ListNode head) {

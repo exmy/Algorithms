@@ -18,6 +18,7 @@ data structure and common algorithms in Java
 * Flatten a Multilevel Doubly Linked List (Medium)
 * Partition List (Medium)
 * Insertion Sort List (Medium)
+* Sort List (Medium)
 ---
 
 #### tree
@@ -34,3 +35,6 @@ data structure and common algorithms in Java
 * Path Sum III (Easy)
 * Binary Tree Pruning (Medium)
 * Find Mode in Binary Search Tree (Easy)
+* Print Binary Tree (Medium)
+* BSTIterator (Medium)
+* Kth Smallest Element in a BST (Medium)
