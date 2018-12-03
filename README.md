@@ -3,38 +3,50 @@ data structure and common algorithms in Java
 
 
 #### math
- * Count the number of prime numbers less than a non-negative number, n.
+* easy
+    * Count the number of prime numbers less than a non-negative number, n.
  ---
 
+ #### array
+ * easy
+    * find in Two-dimensional array
+
 #### linkedlist
-* reverseList
-* merge two sorted lists
-* determine if a linked list has a cycle in it
-* remove Linked List Elements
-* determine if a singly linked list is a palindrome
-* find the node at which the intersection of two singly linked lists begins
-* convert a sorted singly linked to a height balanced BST (Medium)
-* Split Linked List in Parts (Medium)
-* Flatten a Multilevel Doubly Linked List (Medium)
-* Partition List (Medium)
-* Insertion Sort List (Medium)
-* Sort List (Medium)
+* easy
+    * reverseList
+    * merge two sorted lists
+    * determine if a linked list has a cycle in it
+    * remove Linked List Elements
+    * determine if a singly linked list is a palindrome
+    * find the node at which the intersection of two singly linked lists begins
+
+* medium
+    * convert a sorted singly linked to a height balanced BST 
+    * Split Linked List in Parts 
+    * Flatten a Multilevel Doubly Linked List 
+    * Partition List 
+    * Insertion Sort List 
+    * Sort List (mergesort)
 ---
 
 #### tree
-* find the maximum depth of a n-ary tree (easy)
-* Trim a Binary Search Tree (easy)
-* Merge Two Binary Trees (easy)
-* Invert a binary tree (easy)
-* Two Sum IV - Input is a BST (easy)
-* Longest Univalue Path (easy)
-* Binary Tree Paths (easy)
-* Maximum Binary Tree (Medium)
-* Insert into a Binary Search Tree (Medium)
-* Subtree of Another Tree (Easy)
-* Path Sum III (Easy)
-* Binary Tree Pruning (Medium)
-* Find Mode in Binary Search Tree (Easy)
-* Print Binary Tree (Medium)
-* BSTIterator (Medium)
-* Kth Smallest Element in a BST (Medium)
+* easy
+    * find the maximum depth of a n-ary tree
+    * Trim a Binary Search Tree 
+    * Merge Two Binary Trees 
+    * Invert a binary tree 
+    * Two Sum IV - Input is a BST 
+    * Longest Univalue Path 
+    * Binary Tree Paths 
+    * Subtree of Another Tree 
+    * Path Sum III 
+    * Find Mode in Binary Search Tree 
+
+* medium
+    * Maximum Binary Tree 
+    * Insert into a Binary Search Tree 
+    * Binary Tree Pruning 
+    * Print Binary Tree 
+    * BSTIterator 
+    * Kth Smallest Element in a BST 
+    * Binary Tree Right Side View
