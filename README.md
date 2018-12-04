@@ -7,9 +7,16 @@ data structure and common algorithms in Java
     * Count the number of prime numbers less than a non-negative number, n.
  ---
 
+ #### bit
+ * easy
+    * counting the number of one in an integer formed binary
+
  #### array
  * easy
-    * find in Two-dimensional array
+    * find target in two-dimensional array
+    * min number in rotate array
+---
+
 
 #### linkedlist
 * easy
@@ -19,6 +26,7 @@ data structure and common algorithms in Java
     * remove Linked List Elements
     * determine if a singly linked list is a palindrome
     * find the node at which the intersection of two singly linked lists begins
+    * FindKthToTail
 
 * medium
     * convert a sorted singly linked to a height balanced BST 
@@ -28,6 +36,11 @@ data structure and common algorithms in Java
     * Insertion Sort List 
     * Sort List (mergesort)
 ---
+
+#### stack and queue
+* easy
+    * queue based two stack
+    * stack based two queue
 
 #### tree
 * easy
@@ -50,3 +63,4 @@ data structure and common algorithms in Java
     * BSTIterator 
     * Kth Smallest Element in a BST 
     * Binary Tree Right Side View
+    * ReConstructBinaryTree

@@ -140,4 +140,20 @@ public class BasicLinkedListAlgo{
         }
         return pA;
     }
+
+    // (k - 1)
+    public ListNode FindKthToTail(ListNode head,int k) {
+        if(head == null || k == 0) return null;
+        ListNode p = head;
+        for(int i = 0; i < k - 1; i++){
+            if(p.next != null) p = p.next;
+            else return null;
+        }
+        ListNode q = head;
+        while(p.next != null){
+            p = p.next;
+            q = q.next;
+        }
+        return q;
+    }
 }
