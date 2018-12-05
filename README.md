@@ -10,11 +10,16 @@ data structure and common algorithms in Java
  #### bit
  * easy
     * counting the number of one in an integer formed binary
+---
+
 
  #### array
  * easy
     * find target in two-dimensional array
     * min number in rotate array
+
+* medium
+    * print matrix clockwisely
 ---
 
 
@@ -41,6 +46,9 @@ data structure and common algorithms in Java
 * easy
     * queue based two stack
     * stack based two queue
+    * stack contains min()
+    * judge whether stack sequence is legal or not
+---
 
 #### tree
 * easy
