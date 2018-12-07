@@ -5,6 +5,8 @@ data structure and common algorithms in Java
 #### math
 * easy
     * Count the number of prime numbers less than a non-negative number, n.
+    * permutation
+    * combination
  ---
 
  #### bit
@@ -32,6 +34,7 @@ data structure and common algorithms in Java
     * determine if a singly linked list is a palindrome
     * find the node at which the intersection of two singly linked lists begins
     * FindKthToTail
+    * duplicate complexed linkedlist
 
 * medium
     * convert a sorted singly linked to a height balanced BST 
@@ -62,6 +65,9 @@ data structure and common algorithms in Java
     * Subtree of Another Tree 
     * Path Sum III 
     * Find Mode in Binary Search Tree 
+    * judge whether an array is the result of an binary search tree postorders
+    * find a path that sum equals a target in a binary tree
+    * BST converts to double linked list
 
 * medium
     * Maximum Binary Tree 
