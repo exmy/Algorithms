@@ -7,6 +7,9 @@ data structure and common algorithms in Java
     * Count the number of prime numbers less than a non-negative number, n.
     * permutation
     * combination
+
+* medium
+    * the n-th ugly number
  ---
 
  #### bit
@@ -19,6 +22,9 @@ data structure and common algorithms in Java
  * easy
     * find target in two-dimensional array
     * min number in rotate array
+    * find number that appears more than half the time in an array
+    * first K numbers in array
+    * maximum sum of continuous subarrays
 
 * medium
     * print matrix clockwisely
