@@ -10,11 +10,18 @@ data structure and common algorithms in Java
 
 * medium
     * the n-th ugly number
+    * inverse pair
  ---
 
  #### bit
  * easy
     * counting the number of one in an integer formed binary
+---
+
+#### binary search
+* easy
+    * upper_bound
+    * lower_bound
 ---
 
 
@@ -84,3 +91,4 @@ data structure and common algorithms in Java
     * Kth Smallest Element in a BST 
     * Binary Tree Right Side View
     * ReConstructBinaryTree
+    * judge if a tree is a balanced tree
