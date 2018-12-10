@@ -13,9 +13,12 @@ data structure and common algorithms in Java
     * inverse pair
  ---
 
- #### bit
- * easy
+#### bit
+* easy
     * counting the number of one in an integer formed binary
+
+* medium
+    * 找出数组中两个只出现一次的数字
 ---
 
 #### binary search
@@ -35,6 +38,7 @@ data structure and common algorithms in Java
 
 * medium
     * print matrix clockwisely
+    * 和为S的连续正数序列
 ---
 
 
