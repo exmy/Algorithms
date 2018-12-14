@@ -17,6 +17,7 @@ data structure and common algorithms in Java
 #### bit
 * easy
     * counting the number of one in an integer formed binary
+    * 数组中重复的数字
 
 * medium
     * 找出数组中两个只出现一次的数字
@@ -28,6 +29,10 @@ data structure and common algorithms in Java
     * lower_bound
 ---
 
+#### string
+* easy
+* medium
+    * parseInt
 
  #### array
  * easy
@@ -36,6 +41,7 @@ data structure and common algorithms in Java
     * find number that appears more than half the time in an array
     * first K numbers in array
     * maximum sum of continuous subarrays
+    * 乘积数组
 
 * medium
     * print matrix clockwisely
