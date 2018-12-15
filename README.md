@@ -88,6 +88,7 @@ data structure and common algorithms in Java
     * Binary Tree Paths 
     * Subtree of Another Tree 
     * Path Sum III 
+    * Path Sum II
     * Find Mode in Binary Search Tree 
     * judge whether an array is the result of an binary search tree postorders
     * find a path that sum equals a target in a binary tree
