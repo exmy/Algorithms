@@ -78,6 +78,69 @@ public class BasicLinkedListAlgo{
         return false;
     }
 
+    // 链表中环的入口节点
+    // 首先判断是否有环，计算环的长度n，fast指针先走n步，然后fast和slow同步移动
+    public ListNode entryNodeOfLoop(ListNode head)
+    {
+        ListNode slow = head, fast = head.next;
+        while(slow != fast){
+            if(fast == null || fast.next == null) return null;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        int n = 1;
+        ListNode p = slow.next;
+        while(p != slow){
+            n++;
+            p = p.next;
+        }
+        
+        slow = head;
+        fast = head;
+        while(n-- > 0){
+            fast = fast.next;
+        }
+        while(slow != fast){
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
+
+    // 删除有序链表中重复节点, 保留重复节点
+    // 1->2->3->3->4->4->5, 删除后1->2->3->4->5
+    public ListNode deleteDuplication(ListNode head){
+        if(head == null || head.next == null) return head;
+        ListNode p = head;
+        while(p.next != null){
+            ListNode t = p.next;
+            while(t != null && p.val == t.val) t = t.next;
+            p.next = t;
+            p = p.next;
+        }
+        return head;
+    }
+
+    // 删除有序链表中重复节点, 不保留重复节点
+    // 1->2->3->3->4->4->5, 删除后1->2->5
+    public ListNode deleteDuplication2(ListNode head){
+        if(head == null || head.next == null) return head;
+        ListNode nhead = new ListNode(0);
+        nhead.next = head;
+        ListNode p = nhead;
+        while(p.next != null){
+            ListNode t = p.next;
+            boolean mod = false;
+            while(t.next != null && t.val == t.next.val){
+                t = t.next;
+                mod = true;
+            }
+            p.next = mod ? t.next : t;
+            p = mod ? p : p.next;
+        }
+        return nhead.next;
+    }
+
     // Remove Linked List Elements
     public ListNode removeElements(ListNode head, int val) {
         ListNode nhead = new ListNode(0);
