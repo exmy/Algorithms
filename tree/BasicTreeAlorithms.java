@@ -88,4 +88,46 @@ public class BasicTreeAlgorithms{
         }
         return root;
     }
+
+    // 7. 判断二叉树是否对称
+    boolean isSymmetrical(TreeNode root){
+        return isSymmetrical(root, root);
+    }
+    boolean isSymmetrical(TreeNode root1, TreeNode root2){
+        if(root1 == null && root2 == null) return true;
+        if(root1 == null || root2 == null) return false;
+        if(root1.val != root2.val) return false;
+        return isSymmetrical(root1.left, root2.right) && isSymmetrical(root1.right, root2.left);
+    }
+
+    // 8. 层序遍历
+    ArrayList<ArrayList<Integer> > levelOrder(TreeNode root) {
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+        if(root == null) return ans;
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            ArrayList<Integer> tmp = new ArrayList<>();
+            int n = queue.size();
+            for(int i = 0; i < n; i++){
+                TreeNode node = queue.poll();
+                tmp.add(node.val);
+                if(node.left != null) queue.offer(node.left);
+                if(node.right != null) queue.offer(node.right);
+            }
+            ans.add(tmp);
+        }
+        return ans;
+    }
+
+    // 9. 二叉搜索树的第k个节点
+    int cnt = 0;
+    TreeNode KthNode(TreeNode root, int k){
+        if(root == null) return null;
+        TreeNode node = KthNode(root.left, k);
+        if(node != null) return node;
+        if(++cnt == k) return root;
+        node = KthNode(root.right, k);
+        return node;
+    }
 }

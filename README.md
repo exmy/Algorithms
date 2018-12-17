@@ -33,6 +33,8 @@ data structure and common algorithms in Java
 * easy
 * medium
     * parseInt
+---
+
 
  #### array
  * easy
@@ -96,6 +98,9 @@ data structure and common algorithms in Java
     * find a path that sum equals a target in a binary tree
     * BST converts to double linked list
     * 带有父指针的二叉树中序遍历的下一个节点
+    * 判断二叉树是否对称
+    * 层序遍历
+    * 二叉搜索树的第k个节点
 
 * medium
     * Maximum Binary Tree 
@@ -107,3 +112,5 @@ data structure and common algorithms in Java
     * Binary Tree Right Side View
     * ReConstructBinaryTree
     * judge if a tree is a balanced tree
+    * 之字形打印二叉树
+    * 序列化二叉树
