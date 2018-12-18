@@ -79,6 +79,9 @@ data structure and common algorithms in Java
     * stack based two queue
     * stack contains min()
     * judge whether stack sequence is legal or not
+
+* medium
+    * 滑动窗口最大值
 ---
 
 #### tree
