@@ -117,3 +117,8 @@ data structure and common algorithms in Java
     * judge if a tree is a balanced tree
     * 之字形打印二叉树
     * 序列化二叉树
+---
+
+#### dfs
+* easy
+    * 矩阵中的路径
