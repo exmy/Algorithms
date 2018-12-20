@@ -5,10 +5,9 @@ public class PathInMatrix{
         if(m == null || rows < 1 || cols < 1 || s == null) return false;
         vis = new boolean[rows * cols];
 
-        int i = 0;
         for(int r = 0; r < rows; r++){
             for(int c = 0; c < cols; c++){
-                if(hasPath(m, rows, cols, r, c, i, s)) return true;
+                if(hasPath(m, rows, cols, r, c, 0, s)) return true;
             }
         }
         return false;

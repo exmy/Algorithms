@@ -122,3 +122,8 @@ data structure and common algorithms in Java
 #### dfs
 * easy
     * 矩阵中的路径
+    * 机器人的运动范围
+
+#### heap
+* medium
+    * 数据流中的中位数
