@@ -33,6 +33,8 @@ data structure and common algorithms in Java
 * easy
 * medium
     * parseInt
+    * 正则表达式匹配
+    * 表示数值的字符串
 ---
 
 
@@ -123,6 +125,7 @@ data structure and common algorithms in Java
 * easy
     * 矩阵中的路径
     * 机器人的运动范围
+---
 
 #### heap
 * medium
