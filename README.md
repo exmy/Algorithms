@@ -1,6 +1,6 @@
 # Algorithms
 data structure and common algorithms in Java
-
+---
 
 #### math
 * easy
@@ -12,12 +12,13 @@ data structure and common algorithms in Java
 * medium
     * the n-th ugly number
     * inverse pair
+    * 从1到n整数中1出现的次数
  ---
 
 #### bit
 * easy
     * counting the number of one in an integer formed binary
-    * 数组中重复的数字
+    * Hamming Distance
 
 * medium
     * 找出数组中两个只出现一次的数字
@@ -46,6 +47,9 @@ data structure and common algorithms in Java
     * first K numbers in array
     * maximum sum of continuous subarrays
     * 乘积数组
+    * Move Zeroes
+    * 数组中重复的数字
+    * Find All Numbers Disappeared in an Array
 
 * medium
     * print matrix clockwisely
@@ -80,7 +84,7 @@ data structure and common algorithms in Java
     * queue based two stack
     * stack based two queue
     * stack contains min()
-    * judge whether stack sequence is legal or not
+    * judge whether or not stack sequence is legal
 
 * medium
     * 滑动窗口最大值
