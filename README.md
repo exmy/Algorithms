@@ -50,6 +50,7 @@ data structure and common algorithms in Java
     * Move Zeroes
     * 数组中重复的数字
     * Find All Numbers Disappeared in an Array
+    * Shortest Unsorted Continuous Subarray
 
 * medium
     * print matrix clockwisely
