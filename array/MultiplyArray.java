@@ -19,5 +19,22 @@ public class MultiplyArray{
         }
         return ans;
     }
+
+    // more efficient and clean
+    
+    public int[] productExceptSelf(int[] A) {
+        int[] ans = new int[A.length];
+        // 更新左边
+        for(int i = 0, t = 1; i < A.length; i++){
+            ans[i] = t;
+            t *= A[i];
+        }
+        // 更新右边
+        for(int i = A.length - 1, t = 1; i >= 0; i--){
+            ans[i] *= t;
+            t *= A[i];
+        }
+        return ans;
+    }
     
 }
