@@ -51,7 +51,8 @@ data structure and common algorithms in Java
     * 数组中重复的数字
     * Find All Numbers Disappeared in an Array
     * Shortest Unsorted Continuous Subarray
-    * Two Sum 
+    * Two Sum
+    * Three Sum 
 
 * medium
     * print matrix clockwisely
