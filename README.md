@@ -38,7 +38,6 @@ data structure and common algorithms in Java
     * 表示数值的字符串
 ---
 
-
  #### array
  * easy
     * find target in two-dimensional array
@@ -53,13 +52,15 @@ data structure and common algorithms in Java
     * Shortest Unsorted Continuous Subarray
     * Two Sum
     * Three Sum 
+    * Three Sum Closest
+    * Four Sum
+    * Four Sum II
 
 * medium
     * print matrix clockwisely
     * 和为S的连续正数序列
     * Queue Reconstruction by Height
 ---
-
 
 #### linkedlist
 * easy
