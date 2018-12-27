@@ -60,6 +60,7 @@ data structure and common algorithms in Java
     * print matrix clockwisely
     * 和为S的连续正数序列
     * Queue Reconstruction by Height
+    * Rotate Image
 ---
 
 #### linkedlist
