@@ -61,6 +61,7 @@ data structure and common algorithms in Java
     * 和为S的连续正数序列
     * Queue Reconstruction by Height
     * Rotate Image
+    * Find All Duplicates in an Array
 ---
 
 #### linkedlist
