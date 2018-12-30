@@ -62,6 +62,7 @@ data structure and common algorithms in Java
     * Queue Reconstruction by Height
     * Rotate Image
     * Find All Duplicates in an Array
+    * Find the Duplicate Number
 ---
 
 #### linkedlist
