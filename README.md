@@ -63,6 +63,7 @@ data structure and common algorithms in Java
     * Rotate Image
     * Find All Duplicates in an Array
     * Find the Duplicate Number
+    * Subarray Sum Equals K
 ---
 
 #### linkedlist
