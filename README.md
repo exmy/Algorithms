@@ -13,6 +13,7 @@ data structure and common algorithms in Java
     * the n-th ugly number
     * inverse pair
     * 从1到n整数中1出现的次数
+    * Next Permutation
  ---
 
 #### bit
@@ -28,6 +29,12 @@ data structure and common algorithms in Java
 * easy
     * upper_bound
     * lower_bound
+---
+
+#### dp
+* medium 
+    * Coin Change
+
 ---
 
 #### string
