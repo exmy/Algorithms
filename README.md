@@ -147,6 +147,10 @@ data structure and common algorithms in Java
 * easy
     * 矩阵中的路径
     * 机器人的运动范围
+
+* medium
+    * Word Search
+    
 ---
 
 ### union find
