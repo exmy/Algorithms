@@ -154,6 +154,10 @@ data structure and common algorithms in Java
 
 * medium
     * Word Search
+    * Surrounded Regions
+    * Clone Graph
+    * 01 Matrix
+    * Matchsticks to Square
     
 ---
 
