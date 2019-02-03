@@ -142,7 +142,9 @@ data structure and common algorithms in Java
     * 之字形打印二叉树
     * 序列化二叉树
     * Count Complete Tree Nodes
+    * Populating Next Right Pointers in Each Node
     * Populating Next Right Pointers in Each Node II
+    * Construct Binary Tree from Inorder and Postorder Traversal
 ---
 
 #### dfs
