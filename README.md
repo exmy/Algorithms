@@ -145,6 +145,8 @@ data structure and common algorithms in Java
     * Populating Next Right Pointers in Each Node
     * Populating Next Right Pointers in Each Node II
     * Construct Binary Tree from Inorder and Postorder Traversal
+    * Delete Node in a BST
+    * Maximum Width of Binary Tree
 ---
 
 #### dfs
