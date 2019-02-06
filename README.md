@@ -149,6 +149,12 @@ data structure and common algorithms in Java
     * Maximum Width of Binary Tree
 ---
 
+#### graph
+* easy
+    * Course Schedule
+
+---
+
 #### dfs
 * easy
     * 矩阵中的路径
@@ -160,6 +166,7 @@ data structure and common algorithms in Java
     * Clone Graph
     * 01 Matrix
     * Matchsticks to Square
+    * Additive Number
     
 ---
 
