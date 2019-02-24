@@ -2,6 +2,11 @@ public class FindtheDuplicateNumber{
 
     // Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive),
     // prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
+    
+    // example
+    // input: [1,3,4,2,2]
+    // output: 2
+    
     // O(nlogn)
     public int findDuplicate(int[] a) {
         int l = 1, r = a.length - 1;

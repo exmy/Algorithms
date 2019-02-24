@@ -1,5 +1,6 @@
 public class SubarraySumEqualK{
-    // Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+    // Given an array of integers and an integer k, 
+    // you need to find the total number of continuous subarrays whose sum equals to k.
     // O(n^2)
     public int subarraySum(int[] a, int k) {
         int[] sum = new int[a.length + 1];

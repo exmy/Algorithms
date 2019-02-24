@@ -8,12 +8,14 @@ data structure and common algorithms in Java
     * permutation
     * combination
     * 约瑟夫环
+    * Rectangle Overlap
 
 * medium
     * the n-th ugly number
     * inverse pair
     * 从1到n整数中1出现的次数
     * Next Permutation
+    * Rectangle Area
  ---
 
 #### bit
@@ -32,8 +34,12 @@ data structure and common algorithms in Java
 ---
 
 #### dp
+* easy
+    * Best Time to Buy and Sell Stock
 * medium 
     * Coin Change
+    * Minimum Swaps To Make Sequences Increasing
+    * Longest Valid Parentheses
 
 ---
 
@@ -43,6 +49,7 @@ data structure and common algorithms in Java
     * parseInt
     * 正则表达式匹配
     * 表示数值的字符串
+    * 
 ---
 
  #### array
@@ -73,6 +80,9 @@ data structure and common algorithms in Java
     * Find the Duplicate Number
     * Subarray Sum Equals K
     * Sum of Subarray Minimums
+
+* hard
+    * Trapping Rain Water
 ---
 
 #### linkedlist
@@ -95,6 +105,7 @@ data structure and common algorithms in Java
     * Insertion Sort List 
     * Sort List (mergesort)
     * 链表中环的入口节点
+    * Rotate List
 ---
 
 #### stack and queue
@@ -167,6 +178,7 @@ data structure and common algorithms in Java
     * 01 Matrix
     * Matchsticks to Square
     * Additive Number
+    * Max Area of Island
     
 ---
 
@@ -177,3 +189,8 @@ data structure and common algorithms in Java
 #### heap
 * medium
     * 数据流中的中位数
+---
+
+#### other
+* 归并排序非递归实现(Up2DownMergeSort)
+* 后序遍历非递归实现

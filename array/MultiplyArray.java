@@ -1,5 +1,12 @@
 public class MultiplyArray{
 
+    // 问题
+    // 给定一个数组A[0...n-1]
+    // 构建数组B，B[i] = A[0]*A[1]*...*A[i-1]*A[i+1]*...*A[n-1]
+
+    // 思路
+    // 构建两个数组C和D, C[i] = A[0]*...*A[i-1], D[i] = A[i+1]*...*A[n-1]
+
     public int[] multiply(int[] A) {
         int[] a = A.clone(), b = A.clone();
         int n = A.length;
