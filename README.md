@@ -121,6 +121,7 @@ data structure and common algorithms in Java
 
 #### tree
 * easy
+    * Balanced Binary Tree
     * find the maximum depth of a n-ary tree
     * Trim a Binary Search Tree 
     * Merge Two Binary Trees 
@@ -170,6 +171,9 @@ data structure and common algorithms in Java
 * easy
     * 矩阵中的路径
     * 机器人的运动范围
+    * 最长公共子序列LCS
+    * 最长公共子串
+    * 最长递增子序列
 
 * medium
     * Word Search

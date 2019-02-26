@@ -1,4 +1,8 @@
-public class BalancedTree{
+public class BalancedBinaryTree{
+
+    // Given a binary tree, determine if it is height-balanced.
+
+    // 计算height的同时, 用-1表示不是平衡的
 
     public boolean IsBalancedTree(TreeNode root) {
         return isBalance(root) != -1;
