@@ -2,7 +2,7 @@ package linkedlist;
 
 public class BasicLinkedListAlgo{
 
-    // reverse a singly linked list
+    // 1. reverse a singly linked list
     public ListNode reverseList(ListNode head) {
         if(head == null || head.next == null) return head;
         ListNode cur = head.next;
@@ -23,7 +23,7 @@ public class BasicLinkedListAlgo{
         return nhead;
     }
 
-    // merge two sorted lists
+    // 2. merge two sorted lists
     public ListNode recursiveMergeTwoLists(ListNode l1, ListNode l2) {
         if(l1 == null) return l2;
         if(l2 == null) return l1;
@@ -54,7 +54,7 @@ public class BasicLinkedListAlgo{
         return head.next;
     }
 
-    // determine if a linked list has a cycle in it
+    // 3. determine if a linked list has a cycle in it
     public boolean hasCycle(ListNode head) {
         if(head == null || head.next == null) return false;
         ListNode slow = head, fast = head.next;
@@ -78,7 +78,7 @@ public class BasicLinkedListAlgo{
         return false;
     }
 
-    // 链表中环的入口节点
+    // 4. 链表中环的入口节点
     // 首先判断是否有环，计算环的长度n，fast指针先走n步，然后fast和slow同步移动
     public ListNode entryNodeOfLoop(ListNode head)
     {
@@ -107,7 +107,7 @@ public class BasicLinkedListAlgo{
         return slow;
     }
 
-    // 删除有序链表中重复节点, 保留重复节点
+    // 5. 删除有序链表中重复节点, 保留重复节点
     // 1->2->3->3->4->4->5, 删除后1->2->3->4->5
     public ListNode deleteDuplication(ListNode head){
         if(head == null || head.next == null) return head;
@@ -121,7 +121,7 @@ public class BasicLinkedListAlgo{
         return head;
     }
 
-    // 删除有序链表中重复节点, 不保留重复节点
+    // 6. 删除有序链表中重复节点, 不保留重复节点
     // 1->2->3->3->4->4->5, 删除后1->2->5
     public ListNode deleteDuplication2(ListNode head){
         if(head == null || head.next == null) return head;
@@ -141,7 +141,7 @@ public class BasicLinkedListAlgo{
         return nhead.next;
     }
 
-    // Remove Linked List Elements
+    // 7. Remove Linked List Elements
     public ListNode removeElements(ListNode head, int val) {
         ListNode nhead = new ListNode(0);
         nhead.next = head;
@@ -162,7 +162,7 @@ public class BasicLinkedListAlgo{
         return head.val == val ? head.next : head;
     }
 
-    // determine if a singly linked list is a palindrome.
+    // 8. determine if a singly linked list is a palindrome.
     public boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null) return true;
         LinkedList<ListNode> stack = new LinkedList<>();
@@ -193,7 +193,7 @@ public class BasicLinkedListAlgo{
         return ans && isEqual;
     }
 
-    // find the node at which the intersection of two singly linked lists begins.
+    // 9. find the node at which the intersection of two singly linked lists begins.
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) return null;
         ListNode pA = headA, pB = headB;
@@ -204,7 +204,7 @@ public class BasicLinkedListAlgo{
         return pA;
     }
 
-    // (k - 1)
+    // 10. (k - 1)
     public ListNode FindKthToTail(ListNode head,int k) {
         if(head == null || k == 0) return null;
         ListNode p = head;
