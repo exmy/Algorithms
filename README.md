@@ -193,6 +193,7 @@ data structure and common algorithms in Java
 #### heap
 * medium
     * 数据流中的中位数
+    * 堆排序
 ---
 
 #### other

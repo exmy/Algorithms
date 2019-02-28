@@ -1,5 +1,9 @@
 public class MaxInWindows{
-     public ArrayList<Integer> maxInWindows(int [] num, int size){
+
+    // 找出所有滑动窗口里的最大值
+    // 单调队列，只保留窗口中的最大值
+
+    public ArrayList<Integer> maxInWindows(int [] num, int size){
         ArrayList<Integer> ans = new ArrayList<>();
         LinkedList<Integer> win = new LinkedList<>();
 
