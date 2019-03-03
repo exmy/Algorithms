@@ -18,4 +18,9 @@ public class BasicBitAlgo{
         }
         return cnt;
     }
+
+    // 判断一个数是否为2的幂
+    public boolean n2(int n){
+        return (n & -n) == n; // or (n & (n-1)) == 0
+    }
 }

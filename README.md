@@ -16,6 +16,7 @@ data structure and common algorithms in Java
     * 从1到n整数中1出现的次数
     * Next Permutation
     * Rectangle Area
+    * Implement Rand10() Using Rand7() #[random]
  ---
 
 #### bit
@@ -80,6 +81,8 @@ data structure and common algorithms in Java
     * Find the Duplicate Number
     * Subarray Sum Equals K
     * Sum of Subarray Minimums
+    * Kth Largest Element in an Array
+    * Top K Frequent Elements   
 
 * hard
     * Trapping Rain Water
@@ -106,6 +109,9 @@ data structure and common algorithms in Java
     * Sort List (mergesort)
     * 链表中环的入口节点
     * Rotate List
+
+* hard
+    * Merge k Sorted Lists
 ---
 
 #### stack and queue
@@ -199,3 +205,4 @@ data structure and common algorithms in Java
 #### other
 * 归并排序非递归实现(Up2DownMergeSort)
 * 后序遍历非递归实现
+* LRU
