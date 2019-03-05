@@ -19,4 +19,16 @@ public class MoreThanHalfNum{
         return cnt > a.length / 2 ? val : 0;
     }
 
+    public int majorityElement(int[] a) {
+        int ans = a[0], cnt = 1;
+        for(int i = 1; i < a.length; i++){
+            if(a[i] == ans) cnt++;
+            else if(cnt == 0){
+                ans = a[i];
+                cnt++;
+            }else cnt--;
+        }
+        return ans;
+    }
+
 }

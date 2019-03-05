@@ -9,6 +9,7 @@ data structure and common algorithms in Java
     * combination
     * 约瑟夫环
     * Rectangle Overlap
+    * Factorial Trailing Zeroes
 
 * medium
     * the n-th ugly number
@@ -41,8 +42,11 @@ data structure and common algorithms in Java
     * Coin Change
     * Minimum Swaps To Make Sequences Increasing
     * Longest Valid Parentheses
-
 ---
+
+#### greedy
+* hard
+    * Course Schedule III
 
 #### string
 * easy
@@ -50,8 +54,13 @@ data structure and common algorithms in Java
     * parseInt
     * 正则表达式匹配
     * 表示数值的字符串
-    * 
+    * Remove Comments
+    * 大数乘法
 ---
+
+#### hashtable
+* easy
+    * Valid Sudoku
 
  #### array
  * easy
@@ -169,7 +178,15 @@ data structure and common algorithms in Java
 
 #### graph
 * easy
+    * 
+
+* medium
     * Course Schedule
+    * Course Schedule II (topsort)
+
+* hard
+    * 
+
 
 ---
 

@@ -1,5 +1,9 @@
 class AdditiveNumber{
     
+
+    // Input: "112358"
+    // Output: true 
+
     public boolean isAdditiveNumber(String s) {
         int n = s.length();
         for(int i = 1; i < n; i++){
