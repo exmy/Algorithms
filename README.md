@@ -95,6 +95,7 @@ data structure and common algorithms in Java
 
 * hard
     * Trapping Rain Water
+    * Median of Two Sorted Arrays
 ---
 
 #### linkedlist
@@ -118,6 +119,7 @@ data structure and common algorithms in Java
     * Sort List (mergesort)
     * 链表中环的入口节点
     * Rotate List
+    * Add Two Numbers
 
 * hard
     * Merge k Sorted Lists
