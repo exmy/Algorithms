@@ -176,6 +176,7 @@ data structure and common algorithms in Java
     * Construct Binary Tree from Inorder and Postorder Traversal
     * Delete Node in a BST
     * Maximum Width of Binary Tree
+    * Flatten Binary Tree to Linked List
 ---
 
 #### graph
