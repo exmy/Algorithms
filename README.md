@@ -42,6 +42,8 @@ data structure and common algorithms in Java
     * Coin Change
     * Minimum Swaps To Make Sequences Increasing
     * Longest Valid Parentheses
+* hard
+    * Edit Distance
 ---
 
 #### greedy
@@ -56,6 +58,8 @@ data structure and common algorithms in Java
     * 表示数值的字符串
     * Remove Comments
     * 大数乘法
+* hard
+    * Minimum Window Substring (sliding window, )
 ---
 
 #### hashtable
@@ -177,6 +181,9 @@ data structure and common algorithms in Java
     * Delete Node in a BST
     * Maximum Width of Binary Tree
     * Flatten Binary Tree to Linked List
+
+* hard
+    * Binary Tree Maximum Path Sum
 ---
 
 #### graph

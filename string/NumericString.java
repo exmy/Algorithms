@@ -1,4 +1,9 @@
 public class NumericString{
+
+    // 判断一个字符串是否可以表示数值
+    // true: +100, 5e2, -123, 3.141, -1e-16
+    // false: 12e, 1a3.14, 1.2.3, +-5, 12e+5.4
+
     int i = 0;
     public boolean isNumeric(char[] s) {
         if(s == null || s.length == 0) return false;
