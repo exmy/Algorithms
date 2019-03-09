@@ -82,6 +82,7 @@ public class BasicLinkedListAlgo{
     // 首先判断是否有环，计算环的长度n，fast指针先走n步，然后fast和slow同步移动
     public ListNode entryNodeOfLoop(ListNode head)
     {
+        if(head == null || head.next == null) return null;
         ListNode slow = head, fast = head.next;
         while(slow != fast){
             if(fast == null || fast.next == null) return null;

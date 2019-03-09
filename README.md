@@ -33,6 +33,8 @@ data structure and common algorithms in Java
 * easy
     * upper_bound
     * lower_bound
+* medium
+    * Find First and Last Position of Element in Sorted Array
 ---
 
 #### dp
@@ -42,11 +44,15 @@ data structure and common algorithms in Java
     * Coin Change
     * Minimum Swaps To Make Sequences Increasing
     * Longest Valid Parentheses
+    * Partition Equal Subset Sum
+    * Word Break
 * hard
     * Edit Distance
 ---
 
 #### greedy
+* medium
+    * Jump Game
 * hard
     * Course Schedule III
 
@@ -84,6 +90,7 @@ data structure and common algorithms in Java
     * Four Sum
     * Four Sum II
     * Monotonic Array
+    * Maximum Product of Three Numbers
 
 * medium
     * print matrix clockwisely
