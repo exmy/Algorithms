@@ -102,7 +102,8 @@ data structure and common algorithms in Java
     * Subarray Sum Equals K
     * Sum of Subarray Minimums
     * Kth Largest Element in an Array
-    * Top K Frequent Elements   
+    * Top K Frequent Elements
+    * Sort Colors
 
 * hard
     * Trapping Rain Water

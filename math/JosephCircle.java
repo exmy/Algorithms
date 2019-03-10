@@ -25,4 +25,30 @@ public class JosephCircle{
         return ans;
     }
 
+    // 模拟
+    struct node {
+        int a, b;
+    };
+    node a[10001];
+    int main() {
+        int n, s, m, p;
+        scanf("%d%d%d", &n, &s, &m);
+        for(int i = 1; i <= n; i++) {
+            a[i].a = i - 1;
+            a[i].b = i + 1; 
+        }
+        a[1].a = n; 
+        a[n].b = 1;
+        p = s;
+        while(n) {
+            for(int i = 1; i < m; i++) p = a[p].b;
+            cout << p << endl;
+            a[a[p].b].a = a[p].a;
+            a[a[p].a].b = a[p].b;
+            p = a[p].b;
+            n--;
+        }
+        return 0;
+    }
+
 }
