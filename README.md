@@ -104,6 +104,7 @@ data structure and common algorithms in Java
     * Kth Largest Element in an Array
     * Top K Frequent Elements
     * Sort Colors
+    * Merge Intervals
 
 * hard
     * Trapping Rain Water
@@ -205,7 +206,6 @@ data structure and common algorithms in Java
 * hard
     * 
 
-
 ---
 
 #### dfs
@@ -224,7 +224,9 @@ data structure and common algorithms in Java
     * Matchsticks to Square
     * Additive Number
     * Max Area of Island
-    
+
+* hard
+    * N-Queens
 ---
 
 ### union find
