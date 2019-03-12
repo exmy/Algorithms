@@ -35,6 +35,7 @@ data structure and common algorithms in Java
     * lower_bound
 * medium
     * Find First and Last Position of Element in Sorted Array
+    * Search in Rotated Sorted Array
 ---
 
 #### dp
@@ -46,6 +47,7 @@ data structure and common algorithms in Java
     * Longest Valid Parentheses
     * Partition Equal Subset Sum
     * Word Break
+    * Maximal Square
 * hard
     * Edit Distance
 ---
@@ -224,9 +226,12 @@ data structure and common algorithms in Java
     * Matchsticks to Square
     * Additive Number
     * Max Area of Island
+    * Generate Parentheses
+    * Letter Combinations of a Phone Number
 
 * hard
     * N-Queens
+    * N-Queens II
 ---
 
 ### union find
@@ -243,3 +248,4 @@ data structure and common algorithms in Java
 * 归并排序非递归实现(Up2DownMergeSort)
 * 后序遍历非递归实现
 * LRU
+* Trie
