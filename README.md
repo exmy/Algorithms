@@ -48,6 +48,7 @@ data structure and common algorithms in Java
     * Partition Equal Subset Sum
     * Word Break
     * Maximal Square
+    * Perfect Squares
 * hard
     * Edit Distance
 ---
@@ -55,6 +56,7 @@ data structure and common algorithms in Java
 #### greedy
 * medium
     * Jump Game
+    * Task Scheduler
 * hard
     * Course Schedule III
 
@@ -107,6 +109,7 @@ data structure and common algorithms in Java
     * Top K Frequent Elements
     * Sort Colors
     * Merge Intervals
+    * Search a 2D Matrix II
 
 * hard
     * Trapping Rain Water
@@ -207,7 +210,6 @@ data structure and common algorithms in Java
 
 * hard
     * 
-
 ---
 
 #### dfs
@@ -228,6 +230,7 @@ data structure and common algorithms in Java
     * Max Area of Island
     * Generate Parentheses
     * Letter Combinations of a Phone Number
+    * Decode String
 
 * hard
     * N-Queens
