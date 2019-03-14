@@ -25,7 +25,6 @@ public class JosephCircle{
         return ans;
     }
 
-    // 模拟
     struct node {
         int a, b;
     };

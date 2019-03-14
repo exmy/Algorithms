@@ -1,6 +1,6 @@
 class PartitionEqualSubsetSum{
 
-    // leetcode 416
+    // leetcode 416 01背包
     // Given a non-empty array containing only positive integers, 
     // find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 

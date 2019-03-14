@@ -21,7 +21,6 @@ public class Permutation{
         }
     }
     
-    // 去重
     private boolean check(char[] s, int l, int k){
         for(int i = l; i < k; i++){
             if(s[i] == s[k]) return true;

@@ -49,6 +49,7 @@ data structure and common algorithms in Java
     * Word Break
     * Maximal Square
     * Perfect Squares
+    * Maximum Product Subarray
 * hard
     * Edit Distance
 ---
@@ -75,6 +76,9 @@ data structure and common algorithms in Java
 #### hashtable
 * easy
     * Valid Sudoku
+* medium
+    * Group Anagrams
+---
 
  #### array
  * easy
@@ -231,6 +235,9 @@ data structure and common algorithms in Java
     * Generate Parentheses
     * Letter Combinations of a Phone Number
     * Decode String
+    * Number of Islands
+    * Combination Sum
+    * Combination Sum II
 
 * hard
     * N-Queens
@@ -240,6 +247,7 @@ data structure and common algorithms in Java
 ### union find
 * medium
     * Regions Cut By Slashes
+---
 
 #### heap
 * medium
