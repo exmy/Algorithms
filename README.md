@@ -61,6 +61,7 @@ data structure and common algorithms in Java
     * Task Scheduler
 * hard
     * Course Schedule III
+    * Candy
 
 #### string
 * easy
@@ -71,7 +72,7 @@ data structure and common algorithms in Java
     * Remove Comments
     * 大数乘法
 * hard
-    * Minimum Window Substring (sliding window, )
+    * 
 ---
 
 #### hashtable
@@ -255,6 +256,10 @@ data structure and common algorithms in Java
     * 数据流中的中位数
     * 堆排序
 ---
+#### two pointers
+* hard
+    * Subarrays with K Different Integers
+    * Minimum Window Substring (sliding window)
 
 #### other
 * 归并排序非递归实现(Up2DownMergeSort)
