@@ -10,6 +10,7 @@ data structure and common algorithms in Java
     * 约瑟夫环
     * Rectangle Overlap
     * Factorial Trailing Zeroes
+    * Convert a Number to Hexadecimal
 
 * medium
     * the n-th ugly number
@@ -59,6 +60,8 @@ data structure and common algorithms in Java
 * medium
     * Jump Game
     * Task Scheduler
+    * Remove K Digits
+    * Monotone Increasing Digits
 * hard
     * Course Schedule III
     * Candy
