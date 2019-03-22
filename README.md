@@ -52,6 +52,7 @@ data structure and common algorithms in Java
     * Perfect Squares
     * Maximum Product Subarray
     * Decode Ways
+    * Integer Break
 * hard
     * Edit Distance
 ---
