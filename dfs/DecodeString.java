@@ -15,10 +15,11 @@ class DecodeString{
         StringBuilder sb = new StringBuilder();
         String k = "";
         for(int i = pos; i < s.length(); i++){
-            if(s.charAt(i) != '[' && s.charAt(i) != ']' && !Character.isDigit(s.charAt(i)))                                        sb.append(s.charAt(i));
+            if(s.charAt(i) != '[' && s.charAt(i) != ']' && !Character.isDigit(s.charAt(i)))
+                sb.append(s.charAt(i));
             else if(Character.isDigit(s.charAt(i))) k += s.charAt(i);
             else if(s.charAt(i) == '['){
-                pos = i + 1;
+                pos = i + 1;    
                 String next = dfs(s);
                 System.out.println(next);
                 for(int n = Integer.valueOf(k); n > 0; n--) sb.append(next);

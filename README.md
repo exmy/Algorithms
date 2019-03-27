@@ -124,6 +124,7 @@ data structure and common algorithms in Java
 * hard
     * Trapping Rain Water
     * Median of Two Sorted Arrays
+    * Longest Consecutive Sequence
 ---
 
 #### linkedlist

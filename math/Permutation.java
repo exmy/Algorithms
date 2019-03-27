@@ -1,5 +1,7 @@
 public class Permutation{
 
+    // Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
     public ArrayList<String> permutation(String str) {
         ArrayList<String> ans = new ArrayList<>();
         if(str == null || str.isEmpty()) return ans;
