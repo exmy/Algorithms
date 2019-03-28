@@ -75,6 +75,7 @@ data structure and common algorithms in Java
     * 表示数值的字符串
     * Remove Comments
     * 大数乘法
+    * String Match
 * hard
     * 
 ---
@@ -206,6 +207,7 @@ data structure and common algorithms in Java
     * Delete Node in a BST
     * Maximum Width of Binary Tree
     * Flatten Binary Tree to Linked List
+    * 二叉树中最远的两个节点的距离
 
 * hard
     * Binary Tree Maximum Path Sum
