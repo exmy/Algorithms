@@ -19,6 +19,7 @@ data structure and common algorithms in Java
     * Next Permutation
     * Rectangle Area
     * Implement Rand10() Using Rand7() #[random]
+    * Newton Iteration
  ---
 
 #### bit
