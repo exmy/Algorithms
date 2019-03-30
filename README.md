@@ -20,6 +20,8 @@ data structure and common algorithms in Java
     * Rectangle Area
     * Implement Rand10() Using Rand7() #[random]
     * Newton Iteration
+    * Water and Jug Problem
+    * extend gcd
  ---
 
 #### bit
@@ -151,6 +153,7 @@ data structure and common algorithms in Java
     * 链表中环的入口节点
     * Rotate List
     * Add Two Numbers
+    * Reverse Linked List II
 
 * hard
     * Merge k Sorted Lists
