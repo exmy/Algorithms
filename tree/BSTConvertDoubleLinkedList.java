@@ -1,4 +1,8 @@
-public BSTConvertDoubleLinkedList {
+public class BSTConvertDoubleLinkedList {
+
+    // BST 转换为 双向链表
+    // left指针前一个节点，right指向后一个节点
+
     TreeNode head = null;
     TreeNode pre = null;
     public TreeNode convert(TreeNode root) {

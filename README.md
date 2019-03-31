@@ -168,6 +168,10 @@ data structure and common algorithms in Java
 
 * medium
     * 滑动窗口最大值
+    * Evaluate Reverse Polish Notation
+
+* hard
+    * Basic Calculator
 ---
 
 #### tree
@@ -191,6 +195,8 @@ data structure and common algorithms in Java
     * 判断二叉树是否对称
     * 层序遍历
     * 二叉搜索树的第k个节点
+    * Minimum Depth of Binary Tree
+    * Diameter of Binary Tree
 
 * medium
     * Maximum Binary Tree 
@@ -212,6 +218,8 @@ data structure and common algorithms in Java
     * Maximum Width of Binary Tree
     * Flatten Binary Tree to Linked List
     * 二叉树中最远的两个节点的距离
+    * Lowest Common Ancestor of a Binary Tree
+    * 判断二叉树是不是完全二叉树
 
 * hard
     * Binary Tree Maximum Path Sum

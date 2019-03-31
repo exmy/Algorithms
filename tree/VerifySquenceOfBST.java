@@ -1,5 +1,7 @@
 public class VerifySquenceOfBST{
 
+    // 判断给定的序列是否是一棵BST的后序遍历序列
+
     public boolean verifySquenceOfBST(int [] s) {
         if(s == null || s.length == 0) return false;
         return verify(s, s.length);
