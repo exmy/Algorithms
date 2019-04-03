@@ -1,6 +1,5 @@
 class BigNumberMultiply{
 
-    // ????
     public int[] multiply(int[] a, int[] b){
         int[] c = new int[a.length + b.length];
 

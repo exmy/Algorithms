@@ -22,6 +22,8 @@ data structure and common algorithms in Java
     * Newton Iteration
     * Water and Jug Problem
     * extend gcd
+    * 大数乘法、加法、阶乘
+    * 快速幂
  ---
 
 #### bit
@@ -77,7 +79,6 @@ data structure and common algorithms in Java
     * 正则表达式匹配
     * 表示数值的字符串
     * Remove Comments
-    * 大数乘法
     * String Match
 * hard
     * 
@@ -259,6 +260,7 @@ data structure and common algorithms in Java
     * Number of Islands
     * Combination Sum
     * Combination Sum II
+    * Restore IP Addresses
 
 * hard
     * N-Queens
